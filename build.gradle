@@ -9,9 +9,11 @@ repositories {
 	jcenter()
 }
 
+/*
 configurations {
 	compile.exclude group:'commons-logging', module:'commons-logging'
 }
+*/
 
 dependencies {
 	compile 'org.slf4j:slf4j-api:1.7.21'
